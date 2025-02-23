@@ -28,13 +28,14 @@ class multipleFunctions:
                 print("NOT ELIGIBLE")
 
     def percentage():
-        n=5
-        total = 0
-        for i in range(n):
-            sub = int(input(f"Subject{i+1}="))
-            total += sub
+        subject1 = int(input("Subject1="))
+        subject2 = int(input("Subject2="))
+        subject3 = int(input("Subject3="))
+        subject4 = int(input("Subject4="))
+        subject5 = int(input("Subject5="))
+        total = subject1 + subject2 + subject3 + subject4 + subject5
         print("Total : ",total)
-        print("Percentage : ", (total / (n*100)) * 100)
+        print("Percentage : ", (total / 500) * 100)
 
     def triangle():
         height = int(input("Height:"))
